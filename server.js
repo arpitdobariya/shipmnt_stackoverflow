@@ -9,7 +9,7 @@ const bcrypt = require('bcrypt');
 app.use(express.json());
 
 const mongoose = require('mongoose');
-mongoose.connect('mongodb+srv://arpitdobariya23:Arpit123@cluster0.jz6lcpo.mongodb.net/', {
+mongoose.connect('mongodb+srv://<id>:<password>@cluster0.jz6lcpo.mongodb.net/', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
